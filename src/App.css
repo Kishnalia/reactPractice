@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+}
+
+.container .logo {
+
+    justify-content: center;
+    flex: 1;
+    padding: 20px 40px;
+    color: white;
+}
+
+.container .mainNav ul {
+    display: flex;
+}
+
+.container .mainNav li {
+    padding: 20px 40px;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+.container .mainNav li:hover {
+    background-color: blue;
+}
